@@ -1,7 +1,6 @@
 # BTC London Session Strategy
 
-Multi-timeframe backtesting engine for a BTC/USDT intraday strategy based on Tokyo range dynamics and London session liquidity behavior.
-
+A quantitative research project focused on modeling BTC intraday behavior using session-based liquidity patterns.
 ---
 
 ## Overview
