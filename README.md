@@ -136,11 +136,22 @@ Backtest period: August 2017 to August 2025
 * Best trade: **$216.17**
 * Worst trade: **-$50.28**
 
+### Equity Curve
+
+![Equity Curve](equity_curve.png)
+
 ### Interpretation
 
 The strategy operates with a relatively low win rate, but remains profitable due to favorable trade asymmetry and controlled drawdowns.
 
 This suggests that the edge is not derived from frequent accuracy, but from capturing larger directional moves when session structure and volatility conditions align.
+
+### Key Insights
+
+- The strategy relies on **low win rate but positive expectancy**, indicating asymmetric payoff distribution.
+- Performance is driven by capturing **high-volatility moves during London session**, rather than frequent small wins.
+- The Tokyo range acts as a **structural reference**, filtering out non-tradable days.
+- Intrabar resolution using 1-minute data improves realism by reducing execution ambiguity.
 
 ---
 
